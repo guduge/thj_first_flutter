@@ -6,7 +6,7 @@ import 'package:thj_first_flutter/utils/UserUtil.dart';
 import '../../component/IconTextButton.dart';
 import 'SettingPage.dart';
 import 'login/LoginPage.dart';
-import '../test/TestVC.dart';
+import '../../test/TestVC.dart';
 class MePage extends StatefulWidget{
 
   @override
@@ -95,7 +95,7 @@ class RandomWordsState extends State<MePage> {
 
   @override
   Widget build(BuildContext context) {
-
+      print("me-----");
 //    // TODO: implement build
     return new Scaffold(
       backgroundColor: Constants.nlColors.mainColor,
@@ -106,8 +106,8 @@ class RandomWordsState extends State<MePage> {
             IconTextButton(
                 icon: "images/me/mine_nav_complaint.png",
                 size:25,
-                fontsize:8,
-                text: "投诉建议",
+                fontsize:12,
+                text: "demo",
                 onTap: ()=>{
                     Navigator.push( context,
                     new MaterialPageRoute(builder: (context) {

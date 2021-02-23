@@ -5,38 +5,62 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:thj_first_flutter/Constants/Constants.dart';
 import 'package:thj_first_flutter/component/IconTextButton.dart';
+import 'package:thj_first_flutter/test/jpush/JPushEventBus.dart';
 import '../../Constants/config.dart';
 //import 'package:toast/toast.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-
+import 'package:pull_to_refresh/pull_to_refresh.dart';
 class HomePage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
-    return new RandomWordsState();
+    return new HomePageState();
   }
 }
 
-class RandomWordsState extends State<HomePage> {
+class HomePageState extends State<HomePage> {
   bool isloading = true;
-
+  RefreshController _refreshController;
+  List testList = [1,2];
   @override
   initState() {
     print('initState');
     super.initState();
-
+    _refreshController = RefreshController();
     new Future.delayed(
         new Duration(seconds: 2),
         () => {
         showToast(),
-
               setState(() {
                 isloading = false;
               }),
 //              Toast.show("优路教育", context, gravity: Toast.CENTER),
 //      }),
             });
+    Constants.eventBus.on<JPushEventBus>().listen((event) {
+//      if (!mounted) return;
+      print("homePage about Jpush --------- " + event.debugLable );
+    });
+
+
   }
+  void _onRefresh(){
+
+
+    _refreshController.refreshCompleted();
+
+    /*.  after the data return,
+        use _refreshController.refreshComplete() or refreshFailed() to end refreshing
+   */
+  }
+
+  void _onLoading(){
+    _refreshController.loadComplete();
+    /*
+        use _refreshController.loadComplete() or loadNoData() to end loading
+   */
+  }
+
 
   showToast(){
 
@@ -89,12 +113,27 @@ class RandomWordsState extends State<HomePage> {
               // CircularProgressIndicator是一个圆形的Loading进度条
               child: new CircularProgressIndicator(),
             )
-          : new Container(
-        color: Colors.white,
-        child:  ListView(
+          :SmartRefresher(
+        enablePullDown: true,
+        enablePullUp: true,
+        header: WaterDropHeader(),
+        controller: _refreshController,
+        onRefresh: _onRefresh,
+        onLoading: _onLoading,
+        child:buildMain()
+      )
+    );
+  }
+  buglyTest(){
+    print("xxxxxxx");
+    int a = testList[5];
+    print(a);
+  }
+  Widget buildMain(){
+    return ListView(
           children: <Widget>[
             //banner
-            HomeBanner(),
+            HomeBanner(buglyTest),
             TopSegmentView(),
             LiveCourseWidget(),
             new Container(
@@ -104,24 +143,28 @@ class RandomWordsState extends State<HomePage> {
             ),
             CommendCourseWidget(context)
           ],
-        ),
-      )
-    );
+      );
   }
 }
 
-Widget HomeBanner() {
+Widget HomeBanner(tapAction) {
   return new Container(
     color: Colors.white,
     padding: const EdgeInsets.fromLTRB(0, 10, 0, 0),
     child: Swiper(
       itemBuilder: (BuildContext context, int index) {
-        return new Container(
-          padding: const EdgeInsets.fromLTRB(5, 0, 5, 0),
-          child: Image.network(
-            images[index],
-            fit: BoxFit.fill,
+        return InkWell(
+          child: Container(
+            padding: const EdgeInsets.fromLTRB(5, 0, 5, 0),
+            child: Image.network(
+              images[index],
+              fit: BoxFit.fill,
+            ),
           ),
+          onTap: ()=>{
+            print("InkWell------"),
+            tapAction()
+          },
         );
       },
       pagination: new SwiperPagination(

@@ -7,6 +7,9 @@ import 'package:flutter_easyrefresh/easy_refresh.dart';
 import 'dart:math' as math;
 
 import 'package:thj_first_flutter/page/discover/model/ProductItem.dart';
+import 'package:thj_first_flutter/page/discover/search/search_bar_demo.dart';
+
+import 'PolvTestPage.dart';
 
 
 class DiscoverSliverPage extends StatefulWidget {
@@ -58,6 +61,14 @@ class DiscoverSliverState extends State<DiscoverSliverPage> {
       appBar: AppBar(
         elevation: 0.5,
         title: Text("发现"),
+        actions: <Widget>[
+
+          IconButton(icon: Icon(Icons.search,),onPressed: (){
+                Navigator.push(context,MaterialPageRoute(builder: (context){
+                  return SearchBarDemo();
+                }));
+          },)
+        ],
       ),
       body: new Container(
           color: Color(0xfff5f5f5),
@@ -85,7 +96,17 @@ class DiscoverSliverState extends State<DiscoverSliverPage> {
             child: CustomScrollView(slivers: [
               SliverList(
                 delegate: SliverChildListDelegate([
-                  DiscoverTopView()
+                  GestureDetector(
+                    onTap: ()=>{
+                      Navigator.push( context,
+                          new MaterialPageRoute(builder: (context) {
+                            return new  PolvTestPage();
+                          }))
+                    },
+                    behavior: HitTestBehavior.translucent,
+                    child:  DiscoverTopView(),
+                  )
+//
                 ]),
               ),
               _buildHeader(1),

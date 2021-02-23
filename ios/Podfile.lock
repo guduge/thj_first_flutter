@@ -1,41 +1,157 @@
 PODS:
-  - Alamofire (4.8.2)
+  - Alamofire (4.9.1)
+  - Bugly (2.5.0)
+  - FDStackView (1.0.1)
   - Flutter (1.0.0)
+  - flutter_bugly (0.0.1):
+    - Bugly
+    - Flutter
   - fluttertoast (0.0.2):
     - Flutter
+  - fluwx (0.0.1):
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+  - JCore (2.1.1)
+  - JPush (3.2.1):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JPush
+  - Masonry (1.1.0)
+  - PLVMarquee (0.0.4)
+  - PLVSubtitle (0.1.2)
+  - PLVTimer (0.0.4)
+  - PLVVodDanmu (0.0.1)
+  - PolyvAliHttpDNS (1.7.4):
+    - PolyvAliHttpDNS/AlicloudHttpDNS (= 1.7.4)
+    - PolyvAliHttpDNS/AlicloudUtils (= 1.7.4)
+    - PolyvAliHttpDNS/UTDID (= 1.7.4)
+  - PolyvAliHttpDNS/AlicloudHttpDNS (1.7.4)
+  - PolyvAliHttpDNS/AlicloudUtils (1.7.4)
+  - PolyvAliHttpDNS/UTDID (1.7.4)
+  - PolyvIJKPlayer (0.9.2)
+  - PolyvVodSDK (2.14.0):
+    - PolyvVodSDK/Core (= 2.14.0)
+    - PolyvVodSDK/Player (= 2.14.0)
+    - PolyvVodSDK/ThirdPart (= 2.14.0)
+  - PolyvVodSDK/Core (2.14.0):
+    - PLVMarquee (~> 0.0.4)
+    - PLVTimer (~> 0.0.2)
+  - PolyvVodSDK/Player (2.14.0):
+    - PolyvIJKPlayer (~> 0.9.1)
+  - PolyvVodSDK/ThirdPart (2.14.0):
+    - PolyvAliHttpDNS (~> 1.7.3)
+    - SSZipArchive (~> 2.1.5)
+    - WCDB (~> 1.0.6)
   - shared_preferences (0.0.1):
     - Flutter
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - SSZipArchive (2.1.5)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
   - webview_flutter (0.0.1):
     - Flutter
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - Alamofire
-  - Flutter (from `.symlinks/flutter/ios`)
+  - FDStackView
+  - Flutter (from `Flutter`)
+  - flutter_bugly (from `.symlinks/plugins/flutter_bugly/ios`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - fluwx (from `.symlinks/plugins/fluwx/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - Masonry
+  - PLVSubtitle
+  - PLVVodDanmu
+  - PolyvVodSDK
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
   - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+  - YYWebImage
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
+    - Bugly
+    - JCore
+    - JPush
+  trunk:
     - Alamofire
+    - FDStackView
+    - Masonry
+    - PLVMarquee
+    - PLVSubtitle
+    - PLVTimer
+    - PLVVodDanmu
+    - PolyvAliHttpDNS
+    - PolyvIJKPlayer
+    - PolyvVodSDK
+    - SQLiteRepairKit
+    - SSZipArchive
+    - WCDB
+    - WCDBOptimizedSQLCipher
+    - YYCache
+    - YYImage
+    - YYWebImage
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: ".symlinks/flutter/ios"
+    :path: Flutter
+  flutter_bugly:
+    :path: ".symlinks/plugins/flutter_bugly/ios"
   fluttertoast:
     :path: ".symlinks/plugins/fluttertoast/ios"
+  fluwx:
+    :path: ".symlinks/plugins/fluwx/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
   shared_preferences:
     :path: ".symlinks/plugins/shared_preferences/ios"
   webview_flutter:
     :path: ".symlinks/plugins/webview_flutter/ios"
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_bugly: c9800f4d5bc5bdc27ffdde3417a26ba44266e0c3
   fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
+  fluwx: 19524c5e4c9c539a646407259139c9c1e4eaf9e5
+  image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
+  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
+  JPush: a1ff8b8ec53fa3419b414946e4db4efa313baeae
+  jpush_flutter: d7e3a79466eb9447fd940233f02661b514f137c6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PLVMarquee: 7b22d5a12868817642e0a71cf4aa5ccc285b8a22
+  PLVSubtitle: 7701ea0e0c9e0868e7c87b07f28e9e099dba4442
+  PLVTimer: 80d2d24d32bb2e9588d089fc25974ff778259ae1
+  PLVVodDanmu: 7f6663e2bbc3bf93a94b9bd3a404e1760b3d3511
+  PolyvAliHttpDNS: 6e7783feba44d25abc4f9584da83f93e7e4ef957
+  PolyvIJKPlayer: 2a3c55373b145173ae64b1fc23d1eca51e5aad16
+  PolyvVodSDK: 9de1eb4c70e636e6c8367085ed65cad8e9dd6d1b
   shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
-  webview_flutter: 1aa7604e6cdb451a9b7ed2c37d5454c0b440246b
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  SSZipArchive: cefe1364104a0231268a5deb8495bdf2861f52f0
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  webview_flutter: bec7599de6bfbe8008a739aa3ebd7b364ea9d0cd
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 10c7eac53fa6b4c61e1300703ff65b30fecc444f
+PODFILE CHECKSUM: b31c0dc1417203a75070cc2a116d837d88c6204b
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.3

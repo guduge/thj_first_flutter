@@ -16,10 +16,11 @@ class UserUtil {
       "Simulator":"PhoneBrand",
       "Password":password
     };
-    var res = await HttpReuest.postRequest("http://uat1appjk.niceloo.com/api/Login/Login", requestParams);
+    var res = await HttpReuest.postRequest("http://appjk.niceloo.com/api/Login/Login", requestParams);
     Map resMap = json.decode(res);
     Map dataMap = resMap["Data"];
     if (dataMap != null) {
+      print(dataMap);
       UserInfo userInfo = UserInfo.fromJson(dataMap);
       await LocalStorage.save(Constants.USER_INFO, json.encode(userInfo.toJson()));
     }
@@ -40,7 +41,8 @@ class UserUtil {
     UserInfo userInfo = await UserUtil.getUserInfoLocal();
     print("userInfo-------");
     print(userInfo);
-    if(userInfo !=null){
+    if(userInfo !=null && userInfo.Phone != null){
+
       UserUtil.isLogin = userInfo.Phone.length>0;
       return userInfo.Phone.length>0;
     }else{

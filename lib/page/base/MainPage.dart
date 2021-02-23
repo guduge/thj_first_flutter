@@ -100,7 +100,8 @@ class MainPageState extends State<MainPageWidget>{
       ),
       home: new Scaffold(
           body: _pageList[_tabIndex],
-          bottomNavigationBar: new CupertinoTabBar(
+          //BottomNavigationBar
+          bottomNavigationBar: new CupertinoTabBar (
             items: <BottomNavigationBarItem>[
               new BottomNavigationBarItem(
                   icon: getTabIcon(0),

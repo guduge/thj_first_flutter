@@ -8,13 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		2A31EFEA238669790000F0DA /* PLVSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFA3238669790000F0DA /* PLVSchool.m */; };
+		2A31EFEB238669790000F0DA /* PLVVodPlayerSkin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A31EFAA238669790000F0DA /* PLVVodPlayerSkin.xib */; };
+		2A31EFEC238669790000F0DA /* PLVVodDefinitionPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFAC238669790000F0DA /* PLVVodDefinitionPanelView.m */; };
+		2A31EFED238669790000F0DA /* PLVVodPlayTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFAF238669790000F0DA /* PLVVodPlayTipsView.m */; };
+		2A31EFEE238669790000F0DA /* PLVVodRouteLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFB4238669790000F0DA /* PLVVodRouteLineView.m */; };
+		2A31EFEF238669790000F0DA /* PLVVodDanmuSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFB5238669790000F0DA /* PLVVodDanmuSendView.m */; };
+		2A31EFF0238669790000F0DA /* PLVVodCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFB6238669790000F0DA /* PLVVodCoverView.m */; };
+		2A31EFF1238669790000F0DA /* PLVVodFullscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFB9238669790000F0DA /* PLVVodFullscreenView.m */; };
+		2A31EFF2238669790000F0DA /* PLVVodGestureIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFBB238669790000F0DA /* PLVVodGestureIndicatorView.m */; };
+		2A31EFF3238669790000F0DA /* PLVVodPlaybackRatePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFBC238669790000F0DA /* PLVVodPlaybackRatePanelView.m */; };
+		2A31EFF4238669790000F0DA /* PLVVodNetworkTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFC1238669790000F0DA /* PLVVodNetworkTipsView.m */; };
+		2A31EFF5238669790000F0DA /* PLVVodAudioCoverPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFC2238669790000F0DA /* PLVVodAudioCoverPanelView.m */; };
+		2A31EFF6238669790000F0DA /* PLVVodSettingPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFC3238669790000F0DA /* PLVVodSettingPanelView.m */; };
+		2A31EFF7238669790000F0DA /* PLVVodShrinkscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFC4238669790000F0DA /* PLVVodShrinkscreenView.m */; };
+		2A31EFF8238669790000F0DA /* PLVVodLockScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFC5238669790000F0DA /* PLVVodLockScreenView.m */; };
+		2A31EFF9238669790000F0DA /* PLVVodPlayerSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFC7238669790000F0DA /* PLVVodPlayerSkin.m */; };
+		2A31EFFA238669790000F0DA /* PLVVodSkinPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFC8238669790000F0DA /* PLVVodSkinPlayerController.m */; };
+		2A31EFFB238669790000F0DA /* NSString+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFCD238669790000F0DA /* NSString+PLVVod.m */; };
+		2A31EFFC238669790000F0DA /* UIColor+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFD1238669790000F0DA /* UIColor+PLVVod.m */; };
+		2A31EFFD238669790000F0DA /* UINavigationController+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFD2238669790000F0DA /* UINavigationController+PLVVod.m */; };
+		2A31EFFE238669790000F0DA /* UIControl+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFD3238669790000F0DA /* UIControl+PLVVod.m */; };
+		2A31EFFF238669790000F0DA /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFD5238669790000F0DA /* UIButton+EnlargeTouchArea.m */; };
+		2A31F000238669790000F0DA /* PLVVodDanmu+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFD6238669790000F0DA /* PLVVodDanmu+PLVVod.m */; };
+		2A31F001238669790000F0DA /* UIView+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFD7238669790000F0DA /* UIView+PLVVod.m */; };
+		2A31F002238669790000F0DA /* PLVVodResources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A31EFD8238669790000F0DA /* PLVVodResources.xcassets */; };
+		2A31F003238669790000F0DA /* PLVVodExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFDA238669790000F0DA /* PLVVodExamViewController.m */; };
+		2A31F004238669790000F0DA /* PLVVodExamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A31EFDB238669790000F0DA /* PLVVodExamViewController.xib */; };
+		2A31F005238669790000F0DA /* PLVVodExamTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A31EFDD238669790000F0DA /* PLVVodExamTestData.json */; };
+		2A31F006238669790000F0DA /* PLVVodQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFE1238669790000F0DA /* PLVVodQuestion.m */; };
+		2A31F007238669790000F0DA /* PLVVodQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFE2238669790000F0DA /* PLVVodQuestionView.m */; };
+		2A31F008238669790000F0DA /* PLVVodOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFE3238669790000F0DA /* PLVVodOptionCell.m */; };
+		2A31F009238669790000F0DA /* PLVVodOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A31EFE4238669790000F0DA /* PLVVodOptionCell.xib */; };
+		2A31F00A2386697A0000F0DA /* PLVVodExplanationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFE7238669790000F0DA /* PLVVodExplanationView.m */; };
+		2A31F00B2386697A0000F0DA /* THJPolyFlutterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31EFE9238669790000F0DA /* THJPolyFlutterPlugin.m */; };
+		2A31F00F238679090000F0DA /* THJPolyFlutterVodPlayerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31F00E238679090000F0DA /* THJPolyFlutterVodPlayerFactory.m */; };
+		2A31F01523867B5B0000F0DA /* THJPolyFlutterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31F01423867B5B0000F0DA /* THJPolyFlutterView.m */; };
+		2A31F018238681230000F0DA /* THJPolyFlutterVodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31F017238681230000F0DA /* THJPolyFlutterVodManager.m */; };
+		2A6A510822C618F4005EF17B /* THJFlutterWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A510722C618F4005EF17B /* THJFlutterWebView.m */; };
+		2A6A510B22C846F7005EF17B /* THJWebViewFlutterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A510A22C846F7005EF17B /* THJWebViewFlutterPlugin.m */; };
+		2A9C82A2238777980005A52D /* THJPolyFlutterVodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9C82A0238777980005A52D /* THJPolyFlutterVodViewController.m */; };
+		2A9C82A3238777980005A52D /* THJPolyFlutterVodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A9C82A1238777980005A52D /* THJPolyFlutterVodViewController.xib */; };
 		2ADE027B2266BB6B00678025 /* NativeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE027A2266BB6B00678025 /* NativeTool.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		3B80C3941E831B6300D905FE /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B80C3931E831B6300D905FE /* App.framework */; };
-		3B80C3951E831B6300D905FE /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B80C3931E831B6300D905FE /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		49B138B6F9FDDA21F92A4817 /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DFBD576A9C4A038347475 /* libPods-Runner.a */; };
-		9705A1C61CF904A100538489 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9740EEBA1CF902C7004384FC /* Flutter.framework */; };
-		9705A1C71CF904A300538489 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9740EEBA1CF902C7004384FC /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		69DF001955B45B0B5F36FB75 /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66815A2AD95A22A27C25ED2B /* libPods-Runner.a */; };
 		9740EEB41CF90195004384FC /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9740EEB21CF90195004384FC /* Debug.xcconfig */; };
 		978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */; };
 		97C146F31CF9000F007C117D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C146F21CF9000F007C117D /* main.m */; };
@@ -38,8 +75,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3B80C3951E831B6300D905FE /* App.framework in Embed Frameworks */,
-				9705A1C71CF904A300538489 /* Flutter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,18 +84,95 @@
 /* Begin PBXFileReference section */
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		2A2B9C4122C49B570009804D /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		2A31EFA2238669790000F0DA /* PLVSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVSchool.h; sourceTree = "<group>"; };
+		2A31EFA3238669790000F0DA /* PLVSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVSchool.m; sourceTree = "<group>"; };
+		2A31EFA4238669790000F0DA /* THJPolyFlutterPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THJPolyFlutterPlugin.h; sourceTree = "<group>"; };
+		2A31EFA8238669790000F0DA /* PLVVodSkinPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodSkinPlayerController.h; sourceTree = "<group>"; };
+		2A31EFA9238669790000F0DA /* PLVVodPlayerSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlayerSkin.h; sourceTree = "<group>"; };
+		2A31EFAA238669790000F0DA /* PLVVodPlayerSkin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodPlayerSkin.xib; sourceTree = "<group>"; };
+		2A31EFAC238669790000F0DA /* PLVVodDefinitionPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodDefinitionPanelView.m; sourceTree = "<group>"; };
+		2A31EFAE238669790000F0DA /* PLVVodPlayTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlayTipsView.h; sourceTree = "<group>"; };
+		2A31EFAF238669790000F0DA /* PLVVodPlayTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlayTipsView.m; sourceTree = "<group>"; };
+		2A31EFB0238669790000F0DA /* PLVVodPlaybackRatePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlaybackRatePanelView.h; sourceTree = "<group>"; };
+		2A31EFB1238669790000F0DA /* PLVVodGestureIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodGestureIndicatorView.h; sourceTree = "<group>"; };
+		2A31EFB2238669790000F0DA /* PLVVodAudioCoverPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodAudioCoverPanelView.h; sourceTree = "<group>"; };
+		2A31EFB3238669790000F0DA /* PLVVodNetworkTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodNetworkTipsView.h; sourceTree = "<group>"; };
+		2A31EFB4238669790000F0DA /* PLVVodRouteLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodRouteLineView.m; sourceTree = "<group>"; };
+		2A31EFB5238669790000F0DA /* PLVVodDanmuSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodDanmuSendView.m; sourceTree = "<group>"; };
+		2A31EFB6238669790000F0DA /* PLVVodCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodCoverView.m; sourceTree = "<group>"; };
+		2A31EFB7238669790000F0DA /* PLVVodShrinkscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodShrinkscreenView.h; sourceTree = "<group>"; };
+		2A31EFB8238669790000F0DA /* PLVVodSettingPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodSettingPanelView.h; sourceTree = "<group>"; };
+		2A31EFB9238669790000F0DA /* PLVVodFullscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodFullscreenView.m; sourceTree = "<group>"; };
+		2A31EFBA238669790000F0DA /* PLVVodLockScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodLockScreenView.h; sourceTree = "<group>"; };
+		2A31EFBB238669790000F0DA /* PLVVodGestureIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodGestureIndicatorView.m; sourceTree = "<group>"; };
+		2A31EFBC238669790000F0DA /* PLVVodPlaybackRatePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlaybackRatePanelView.m; sourceTree = "<group>"; };
+		2A31EFBD238669790000F0DA /* PLVVodDefinitionPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodDefinitionPanelView.h; sourceTree = "<group>"; };
+		2A31EFBE238669790000F0DA /* PLVVodCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodCoverView.h; sourceTree = "<group>"; };
+		2A31EFBF238669790000F0DA /* PLVVodDanmuSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodDanmuSendView.h; sourceTree = "<group>"; };
+		2A31EFC0238669790000F0DA /* PLVVodRouteLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodRouteLineView.h; sourceTree = "<group>"; };
+		2A31EFC1238669790000F0DA /* PLVVodNetworkTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodNetworkTipsView.m; sourceTree = "<group>"; };
+		2A31EFC2238669790000F0DA /* PLVVodAudioCoverPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodAudioCoverPanelView.m; sourceTree = "<group>"; };
+		2A31EFC3238669790000F0DA /* PLVVodSettingPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodSettingPanelView.m; sourceTree = "<group>"; };
+		2A31EFC4238669790000F0DA /* PLVVodShrinkscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodShrinkscreenView.m; sourceTree = "<group>"; };
+		2A31EFC5238669790000F0DA /* PLVVodLockScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodLockScreenView.m; sourceTree = "<group>"; };
+		2A31EFC6238669790000F0DA /* PLVVodFullscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodFullscreenView.h; sourceTree = "<group>"; };
+		2A31EFC7238669790000F0DA /* PLVVodPlayerSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlayerSkin.m; sourceTree = "<group>"; };
+		2A31EFC8238669790000F0DA /* PLVVodSkinPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodSkinPlayerController.m; sourceTree = "<group>"; };
+		2A31EFCA238669790000F0DA /* UIControl+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PLVVod.h"; sourceTree = "<group>"; };
+		2A31EFCB238669790000F0DA /* UIColor+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PLVVod.h"; sourceTree = "<group>"; };
+		2A31EFCC238669790000F0DA /* UINavigationController+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PLVVod.h"; sourceTree = "<group>"; };
+		2A31EFCD238669790000F0DA /* NSString+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PLVVod.m"; sourceTree = "<group>"; };
+		2A31EFCE238669790000F0DA /* PLVVodDanmu+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PLVVodDanmu+PLVVod.h"; sourceTree = "<group>"; };
+		2A31EFCF238669790000F0DA /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		2A31EFD0238669790000F0DA /* UIView+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PLVVod.h"; sourceTree = "<group>"; };
+		2A31EFD1238669790000F0DA /* UIColor+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PLVVod.m"; sourceTree = "<group>"; };
+		2A31EFD2238669790000F0DA /* UINavigationController+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PLVVod.m"; sourceTree = "<group>"; };
+		2A31EFD3238669790000F0DA /* UIControl+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PLVVod.m"; sourceTree = "<group>"; };
+		2A31EFD4238669790000F0DA /* NSString+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PLVVod.h"; sourceTree = "<group>"; };
+		2A31EFD5238669790000F0DA /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		2A31EFD6238669790000F0DA /* PLVVodDanmu+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PLVVodDanmu+PLVVod.m"; sourceTree = "<group>"; };
+		2A31EFD7238669790000F0DA /* UIView+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PLVVod.m"; sourceTree = "<group>"; };
+		2A31EFD8238669790000F0DA /* PLVVodResources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PLVVodResources.xcassets; sourceTree = "<group>"; };
+		2A31EFDA238669790000F0DA /* PLVVodExamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodExamViewController.m; sourceTree = "<group>"; };
+		2A31EFDB238669790000F0DA /* PLVVodExamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodExamViewController.xib; sourceTree = "<group>"; };
+		2A31EFDC238669790000F0DA /* PLVVodExamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodExamViewController.h; sourceTree = "<group>"; };
+		2A31EFDD238669790000F0DA /* PLVVodExamTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PLVVodExamTestData.json; sourceTree = "<group>"; };
+		2A31EFDF238669790000F0DA /* PLVVodQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodQuestionView.h; sourceTree = "<group>"; };
+		2A31EFE0238669790000F0DA /* PLVVodOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodOptionCell.h; sourceTree = "<group>"; };
+		2A31EFE1238669790000F0DA /* PLVVodQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodQuestion.m; sourceTree = "<group>"; };
+		2A31EFE2238669790000F0DA /* PLVVodQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodQuestionView.m; sourceTree = "<group>"; };
+		2A31EFE3238669790000F0DA /* PLVVodOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodOptionCell.m; sourceTree = "<group>"; };
+		2A31EFE4238669790000F0DA /* PLVVodOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodOptionCell.xib; sourceTree = "<group>"; };
+		2A31EFE5238669790000F0DA /* PLVVodQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodQuestion.h; sourceTree = "<group>"; };
+		2A31EFE7238669790000F0DA /* PLVVodExplanationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodExplanationView.m; sourceTree = "<group>"; };
+		2A31EFE8238669790000F0DA /* PLVVodExplanationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodExplanationView.h; sourceTree = "<group>"; };
+		2A31EFE9238669790000F0DA /* THJPolyFlutterPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THJPolyFlutterPlugin.m; sourceTree = "<group>"; };
+		2A31F00C23866A640000F0DA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2A31F00D238679090000F0DA /* THJPolyFlutterVodPlayerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THJPolyFlutterVodPlayerFactory.h; sourceTree = "<group>"; };
+		2A31F00E238679090000F0DA /* THJPolyFlutterVodPlayerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THJPolyFlutterVodPlayerFactory.m; sourceTree = "<group>"; };
+		2A31F01323867B5B0000F0DA /* THJPolyFlutterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THJPolyFlutterView.h; sourceTree = "<group>"; };
+		2A31F01423867B5B0000F0DA /* THJPolyFlutterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THJPolyFlutterView.m; sourceTree = "<group>"; };
+		2A31F016238681230000F0DA /* THJPolyFlutterVodManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THJPolyFlutterVodManager.h; sourceTree = "<group>"; };
+		2A31F017238681230000F0DA /* THJPolyFlutterVodManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THJPolyFlutterVodManager.m; sourceTree = "<group>"; };
+		2A6A510622C618F4005EF17B /* THJFlutterWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THJFlutterWebView.h; sourceTree = "<group>"; };
+		2A6A510722C618F4005EF17B /* THJFlutterWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THJFlutterWebView.m; sourceTree = "<group>"; };
+		2A6A510922C846F7005EF17B /* THJWebViewFlutterPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THJWebViewFlutterPlugin.h; sourceTree = "<group>"; };
+		2A6A510A22C846F7005EF17B /* THJWebViewFlutterPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THJWebViewFlutterPlugin.m; sourceTree = "<group>"; };
+		2A9C829F238777980005A52D /* THJPolyFlutterVodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THJPolyFlutterVodViewController.h; sourceTree = "<group>"; };
+		2A9C82A0238777980005A52D /* THJPolyFlutterVodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THJPolyFlutterVodViewController.m; sourceTree = "<group>"; };
+		2A9C82A1238777980005A52D /* THJPolyFlutterVodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THJPolyFlutterVodViewController.xib; sourceTree = "<group>"; };
+		2AC4C4FE23263C43003D34B9 /* newNitify.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = newNitify.caf; sourceTree = "<group>"; };
 		2ADE02792266BB6B00678025 /* NativeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeTool.h; sourceTree = "<group>"; };
 		2ADE027A2266BB6B00678025 /* NativeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeTool.m; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
-		3B80C3931E831B6300D905FE /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
-		434DFBD576A9C4A038347475 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0DC03145584BCCAF884EBB /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		66815A2AD95A22A27C25ED2B /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		7AFFD8ED1D35381100E5BB4D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
-		9740EEBA1CF902C7004384FC /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = Flutter/Flutter.framework; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C146F21CF9000F007C117D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,15 +201,183 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9705A1C61CF904A100538489 /* Flutter.framework in Frameworks */,
-				3B80C3941E831B6300D905FE /* App.framework in Frameworks */,
-				49B138B6F9FDDA21F92A4817 /* libPods-Runner.a in Frameworks */,
+				69DF001955B45B0B5F36FB75 /* libPods-Runner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A31EFA0238669790000F0DA /* poly */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFA5238669790000F0DA /* lib */,
+				2A31EFA1238669790000F0DA /* config */,
+				2A31EFA4238669790000F0DA /* THJPolyFlutterPlugin.h */,
+				2A31EFE9238669790000F0DA /* THJPolyFlutterPlugin.m */,
+				2A31F00D238679090000F0DA /* THJPolyFlutterVodPlayerFactory.h */,
+				2A31F00E238679090000F0DA /* THJPolyFlutterVodPlayerFactory.m */,
+				2A31F01323867B5B0000F0DA /* THJPolyFlutterView.h */,
+				2A31F01423867B5B0000F0DA /* THJPolyFlutterView.m */,
+				2A31F016238681230000F0DA /* THJPolyFlutterVodManager.h */,
+				2A31F017238681230000F0DA /* THJPolyFlutterVodManager.m */,
+				2A9C829F238777980005A52D /* THJPolyFlutterVodViewController.h */,
+				2A9C82A0238777980005A52D /* THJPolyFlutterVodViewController.m */,
+				2A9C82A1238777980005A52D /* THJPolyFlutterVodViewController.xib */,
+			);
+			path = poly;
+			sourceTree = "<group>";
+		};
+		2A31EFA1238669790000F0DA /* config */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFA2238669790000F0DA /* PLVSchool.h */,
+				2A31EFA3238669790000F0DA /* PLVSchool.m */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		2A31EFA5238669790000F0DA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFA6238669790000F0DA /* PolyvOpenSourceModule */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2A31EFA6238669790000F0DA /* PolyvOpenSourceModule */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFA7238669790000F0DA /* Skin */,
+				2A31EFC9238669790000F0DA /* Category */,
+				2A31EFD8238669790000F0DA /* PLVVodResources.xcassets */,
+				2A31EFD9238669790000F0DA /* Exam */,
+			);
+			path = PolyvOpenSourceModule;
+			sourceTree = "<group>";
+		};
+		2A31EFA7238669790000F0DA /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFA8238669790000F0DA /* PLVVodSkinPlayerController.h */,
+				2A31EFA9238669790000F0DA /* PLVVodPlayerSkin.h */,
+				2A31EFAA238669790000F0DA /* PLVVodPlayerSkin.xib */,
+				2A31EFAB238669790000F0DA /* View */,
+				2A31EFC7238669790000F0DA /* PLVVodPlayerSkin.m */,
+				2A31EFC8238669790000F0DA /* PLVVodSkinPlayerController.m */,
+			);
+			path = Skin;
+			sourceTree = "<group>";
+		};
+		2A31EFAB238669790000F0DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFAC238669790000F0DA /* PLVVodDefinitionPanelView.m */,
+				2A31EFAD238669790000F0DA /* PlayTips */,
+				2A31EFB0238669790000F0DA /* PLVVodPlaybackRatePanelView.h */,
+				2A31EFB1238669790000F0DA /* PLVVodGestureIndicatorView.h */,
+				2A31EFB2238669790000F0DA /* PLVVodAudioCoverPanelView.h */,
+				2A31EFB3238669790000F0DA /* PLVVodNetworkTipsView.h */,
+				2A31EFB4238669790000F0DA /* PLVVodRouteLineView.m */,
+				2A31EFB5238669790000F0DA /* PLVVodDanmuSendView.m */,
+				2A31EFB6238669790000F0DA /* PLVVodCoverView.m */,
+				2A31EFB7238669790000F0DA /* PLVVodShrinkscreenView.h */,
+				2A31EFB8238669790000F0DA /* PLVVodSettingPanelView.h */,
+				2A31EFB9238669790000F0DA /* PLVVodFullscreenView.m */,
+				2A31EFBA238669790000F0DA /* PLVVodLockScreenView.h */,
+				2A31EFBB238669790000F0DA /* PLVVodGestureIndicatorView.m */,
+				2A31EFBC238669790000F0DA /* PLVVodPlaybackRatePanelView.m */,
+				2A31EFBD238669790000F0DA /* PLVVodDefinitionPanelView.h */,
+				2A31EFBE238669790000F0DA /* PLVVodCoverView.h */,
+				2A31EFBF238669790000F0DA /* PLVVodDanmuSendView.h */,
+				2A31EFC0238669790000F0DA /* PLVVodRouteLineView.h */,
+				2A31EFC1238669790000F0DA /* PLVVodNetworkTipsView.m */,
+				2A31EFC2238669790000F0DA /* PLVVodAudioCoverPanelView.m */,
+				2A31EFC3238669790000F0DA /* PLVVodSettingPanelView.m */,
+				2A31EFC4238669790000F0DA /* PLVVodShrinkscreenView.m */,
+				2A31EFC5238669790000F0DA /* PLVVodLockScreenView.m */,
+				2A31EFC6238669790000F0DA /* PLVVodFullscreenView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A31EFAD238669790000F0DA /* PlayTips */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFAE238669790000F0DA /* PLVVodPlayTipsView.h */,
+				2A31EFAF238669790000F0DA /* PLVVodPlayTipsView.m */,
+			);
+			path = PlayTips;
+			sourceTree = "<group>";
+		};
+		2A31EFC9238669790000F0DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFCA238669790000F0DA /* UIControl+PLVVod.h */,
+				2A31EFCB238669790000F0DA /* UIColor+PLVVod.h */,
+				2A31EFCC238669790000F0DA /* UINavigationController+PLVVod.h */,
+				2A31EFCD238669790000F0DA /* NSString+PLVVod.m */,
+				2A31EFCE238669790000F0DA /* PLVVodDanmu+PLVVod.h */,
+				2A31EFCF238669790000F0DA /* UIButton+EnlargeTouchArea.h */,
+				2A31EFD0238669790000F0DA /* UIView+PLVVod.h */,
+				2A31EFD1238669790000F0DA /* UIColor+PLVVod.m */,
+				2A31EFD2238669790000F0DA /* UINavigationController+PLVVod.m */,
+				2A31EFD3238669790000F0DA /* UIControl+PLVVod.m */,
+				2A31EFD4238669790000F0DA /* NSString+PLVVod.h */,
+				2A31EFD5238669790000F0DA /* UIButton+EnlargeTouchArea.m */,
+				2A31EFD6238669790000F0DA /* PLVVodDanmu+PLVVod.m */,
+				2A31EFD7238669790000F0DA /* UIView+PLVVod.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2A31EFD9238669790000F0DA /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFDA238669790000F0DA /* PLVVodExamViewController.m */,
+				2A31EFDB238669790000F0DA /* PLVVodExamViewController.xib */,
+				2A31EFDC238669790000F0DA /* PLVVodExamViewController.h */,
+				2A31EFDD238669790000F0DA /* PLVVodExamTestData.json */,
+				2A31EFDE238669790000F0DA /* QuestionView */,
+				2A31EFE6238669790000F0DA /* ExplanationView */,
+			);
+			path = Exam;
+			sourceTree = "<group>";
+		};
+		2A31EFDE238669790000F0DA /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFDF238669790000F0DA /* PLVVodQuestionView.h */,
+				2A31EFE0238669790000F0DA /* PLVVodOptionCell.h */,
+				2A31EFE1238669790000F0DA /* PLVVodQuestion.m */,
+				2A31EFE2238669790000F0DA /* PLVVodQuestionView.m */,
+				2A31EFE3238669790000F0DA /* PLVVodOptionCell.m */,
+				2A31EFE4238669790000F0DA /* PLVVodOptionCell.xib */,
+				2A31EFE5238669790000F0DA /* PLVVodQuestion.h */,
+			);
+			path = QuestionView;
+			sourceTree = "<group>";
+		};
+		2A31EFE6238669790000F0DA /* ExplanationView */ = {
+			isa = PBXGroup;
+			children = (
+				2A31EFE7238669790000F0DA /* PLVVodExplanationView.m */,
+				2A31EFE8238669790000F0DA /* PLVVodExplanationView.h */,
+			);
+			path = ExplanationView;
+			sourceTree = "<group>";
+		};
+		2A6A510522C618BE005EF17B /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				2A6A510622C618F4005EF17B /* THJFlutterWebView.h */,
+				2A6A510722C618F4005EF17B /* THJFlutterWebView.m */,
+				2A6A510922C846F7005EF17B /* THJWebViewFlutterPlugin.h */,
+				2A6A510A22C846F7005EF17B /* THJWebViewFlutterPlugin.m */,
+			);
+			path = webview;
+			sourceTree = "<group>";
+		};
 		35566AC05BF6611C8233BECC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +391,7 @@
 		5BD54D0019C044765CAD82AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				434DFBD576A9C4A038347475 /* libPods-Runner.a */,
+				66815A2AD95A22A27C25ED2B /* libPods-Runner.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,9 +399,7 @@
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
-				3B80C3931E831B6300D905FE /* App.framework */,
 				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
-				9740EEBA1CF902C7004384FC /* Flutter.framework */,
 				9740EEB21CF90195004384FC /* Debug.xcconfig */,
 				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
 				9740EEB31CF90195004384FC /* Generated.xcconfig */,
@@ -151,6 +429,10 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				2A31EFA0238669790000F0DA /* poly */,
+				2AC4C4FE23263C43003D34B9 /* newNitify.caf */,
+				2A6A510522C618BE005EF17B /* webview */,
+				2A2B9C4122C49B570009804D /* Runner.entitlements */,
 				A702BC682261AD320066863D /* Net */,
 				7AFFD8ED1D35381100E5BB4D /* AppDelegate.h */,
 				7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */,
@@ -164,6 +446,7 @@
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
 				2ADE02792266BB6B00678025 /* NativeTool.h */,
 				2ADE027A2266BB6B00678025 /* NativeTool.m */,
+				2A31F00C23866A640000F0DA /* PrefixHeader.pch */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -239,6 +522,15 @@
 				TargetAttributes = {
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ST3CBTB2CL;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -247,6 +539,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -267,8 +560,14 @@
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				2A31F004238669790000F0DA /* PLVVodExamViewController.xib in Resources */,
+				2A31F009238669790000F0DA /* PLVVodOptionCell.xib in Resources */,
+				2A31F002238669790000F0DA /* PLVVodResources.xcassets in Resources */,
 				9740EEB41CF90195004384FC /* Debug.xcconfig in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
+				2A9C82A3238777980005A52D /* THJPolyFlutterVodViewController.xib in Resources */,
+				2A31F005238669790000F0DA /* PLVVodExamTestData.json in Resources */,
+				2A31EFEB238669790000F0DA /* PLVVodPlayerSkin.xib in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +587,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" thin";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
 		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -331,17 +630,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh",
-				"${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework",
+				"${PODS_ROOT}/../Flutter/Flutter.framework",
+				"${PODS_ROOT}/PolyvIJKPlayer/PolyvIJKMediaFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PolyvIJKMediaFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -355,16 +652,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A31EFF3238669790000F0DA /* PLVVodPlaybackRatePanelView.m in Sources */,
+				2A31EFFD238669790000F0DA /* UINavigationController+PLVVod.m in Sources */,
+				2A9C82A2238777980005A52D /* THJPolyFlutterVodViewController.m in Sources */,
 				2ADE027B2266BB6B00678025 /* NativeTool.m in Sources */,
+				2A31EFF1238669790000F0DA /* PLVVodFullscreenView.m in Sources */,
+				2A6A510B22C846F7005EF17B /* THJWebViewFlutterPlugin.m in Sources */,
+				2A31F00A2386697A0000F0DA /* PLVVodExplanationView.m in Sources */,
+				2A31EFF9238669790000F0DA /* PLVVodPlayerSkin.m in Sources */,
+				2A31EFF8238669790000F0DA /* PLVVodLockScreenView.m in Sources */,
 				A702BC7D2261AD320066863D /* DES3EncryptUtil.m in Sources */,
+				2A31EFEA238669790000F0DA /* PLVSchool.m in Sources */,
+				2A31EFEF238669790000F0DA /* PLVVodDanmuSendView.m in Sources */,
+				2A6A510822C618F4005EF17B /* THJFlutterWebView.m in Sources */,
+				2A31EFF5238669790000F0DA /* PLVVodAudioCoverPanelView.m in Sources */,
+				2A31EFEC238669790000F0DA /* PLVVodDefinitionPanelView.m in Sources */,
+				2A31F00F238679090000F0DA /* THJPolyFlutterVodPlayerFactory.m in Sources */,
+				2A31F001238669790000F0DA /* UIView+PLVVod.m in Sources */,
+				2A31F003238669790000F0DA /* PLVVodExamViewController.m in Sources */,
 				A702BC7E2261AD320066863D /* NSString+NSStringHexToBytes.m in Sources */,
+				2A31EFEE238669790000F0DA /* PLVVodRouteLineView.m in Sources */,
+				2A31EFFC238669790000F0DA /* UIColor+PLVVod.m in Sources */,
+				2A31EFF7238669790000F0DA /* PLVVodShrinkscreenView.m in Sources */,
 				978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */,
 				A702BC7A2261AD320066863D /* AES.m in Sources */,
+				2A31F007238669790000F0DA /* PLVVodQuestionView.m in Sources */,
 				A702BC782261AD320066863D /* JSON.swift in Sources */,
+				2A31F018238681230000F0DA /* THJPolyFlutterVodManager.m in Sources */,
+				2A31EFF6238669790000F0DA /* PLVVodSettingPanelView.m in Sources */,
+				2A31EFF2238669790000F0DA /* PLVVodGestureIndicatorView.m in Sources */,
+				2A31EFFF238669790000F0DA /* UIButton+EnlargeTouchArea.m in Sources */,
+				2A31F01523867B5B0000F0DA /* THJPolyFlutterView.m in Sources */,
+				2A31EFFE238669790000F0DA /* UIControl+PLVVod.m in Sources */,
 				97C146F31CF9000F007C117D /* main.m in Sources */,
 				A702BC792261AD320066863D /* Parameteter.swift in Sources */,
+				2A31EFFA238669790000F0DA /* PLVVodSkinPlayerController.m in Sources */,
+				2A31EFFB238669790000F0DA /* NSString+PLVVod.m in Sources */,
 				A702BC7C2261AD320066863D /* MyBase64.m in Sources */,
+				2A31F000238669790000F0DA /* PLVVodDanmu+PLVVod.m in Sources */,
+				2A31F006238669790000F0DA /* PLVVodQuestion.m in Sources */,
+				2A31F00B2386697A0000F0DA /* THJPolyFlutterPlugin.m in Sources */,
+				2A31EFF4238669790000F0DA /* PLVVodNetworkTipsView.m in Sources */,
+				2A31F008238669790000F0DA /* PLVVodOptionCell.m in Sources */,
 				A702BC7B2261AD320066863D /* NSData+AES256.m in Sources */,
+				2A31EFED238669790000F0DA /* PLVVodPlayTipsView.m in Sources */,
+				2A31EFF0238669790000F0DA /* PLVVodCoverView.m in Sources */,
 				A702BC832261B2210066863D /* Debuger.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 			);
@@ -425,6 +757,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Runner/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -444,8 +778,9 @@
 			baseConfigurationReference = AE9A0A5E7D299F3C0B9902E7 /* Pods-Runner.profile.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = S8QB4VV633;
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +792,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.thjFirstFlutter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.flutterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -499,6 +834,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Runner/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -550,6 +887,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Runner/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -569,7 +908,9 @@
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -581,7 +922,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.thjFirstFlutter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.flutterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -593,7 +934,9 @@
 			baseConfigurationReference = 5F0DC03145584BCCAF884EBB /* Pods-Runner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -605,7 +948,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.thjFirstFlutter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.flutterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";

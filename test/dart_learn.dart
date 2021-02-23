@@ -1,9 +1,39 @@
 
 import 'dart:async';
-
 void main(){
 //  testFuture();
-  testScheduleMicrotatsk();
+//  testScheduleMicrotatsk();
+//  testCompleter();
+//  testAwait2();
+//  testCall();
+  testMakeAdder();
+}
+
+
+testAwait2(){
+  print("11111111");
+  testAwait3();
+}
+testCall() {
+  var wf = new WannabeFunction();
+  var out = wf("Hi","there,","gang");
+  print(out.runtimeType);
+}
+testAwait3() async {
+  print("22222222");
+  await Future.delayed(Duration(seconds: 1),()=>{
+    print("333333")
+  });
+  print("4444444");
+
+}
+void testAwait() async{
+  print("11111");
+  await Future.delayed(Duration(seconds: 3),()=>{
+    print("22222222")
+  });
+  print("333333333");
+
 }
 void testFuture() {
 
@@ -51,4 +81,35 @@ void testScheduleMicrotatsk() {
   scheduleMicrotask(() => print('Mission_11'));
 
   print('Mission_12');
+}
+
+void testCompleter(){
+  var completer = Completer();
+
+  var future = completer.future;
+// 需要的话串上回调函数。
+  print("111111111");
+  future.then((value)=> print('$value'));
+
+//做些其它事情
+  print("444444");
+// 设置为完成状态
+  completer.complete("done");
+  print("555555");
+
+
+
+}
+class WannabeFunction {
+
+  call(String a, String b, String c) => '$a $b $c!';
+
+}
+Function testMakeAdder () {
+  var add1 =  makeAdder(2);
+  print(add1(3));
+
+}
+Function makeAdder(num addBy) {
+  return (num i) => addBy + i;
 }

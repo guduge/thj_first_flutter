@@ -28,8 +28,9 @@ class Api {
     try {
 
       if(isEncrypt){
-        var result =  await platformMethodChannel.invokeMethod('AESEncryptText',params);// 2加密 //参数暂时写死，为调试用
+        var result =  await platformMethodChannel.invokeMethod('AESEncryptText',params);// 2加密
         response = await _dio.request(url, data: result, options: option);
+
         var resultRes =  await platformMethodChannel.invokeMethod('AESDencryptText',response.data);// 解密
         print("resultRes-------------");
         print(resultRes);
